@@ -2,6 +2,7 @@ import { Header } from "./components/Header";
 import { Tabs } from "./components/Tabs";
 import { DoList } from "./components/DoList";
 import { DoInput } from "./components/DoInput";
+import { Footer } from "./components/Footer";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
         ukonczZadanie={ukonczZadanie} 
       />
       <DoInput dodawanieZadania={dodawanieZadania} />
+      <Footer />
     </div>
   );
 }
